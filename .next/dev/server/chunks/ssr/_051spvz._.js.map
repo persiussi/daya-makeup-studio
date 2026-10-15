@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/asitsingh/Documents/github/Leads/Websites/daya%20makeup%20studio/app/layout.tsx"],"sourcesContent":["import type { Metadata } from 'next';\nimport './globals.css';\nexport const metadata: Metadata = { title: 'Daya Studio — makeup, made personal', description: 'A makeup studio for luminous, unforgettable looks.' };\nexport default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) { return <html lang=\"en\"><body>{children}</body></html>; }\n"],"names":["metadata","title","description","RootLayout","children","lang"],"mappings":";;;;;;;;;AAEO,MAAMA,WAAqB;IAAEC,OAAO;IAAuCC,aAAa;AAAqD;AACrI,SAASC,WAAW,EAAEC,QAAQ,EAA2C;IAAI,qBAAO,iZAAC;QAAKC,MAAK;kBAAK,cAAA,iZAAC;sBAAMD;;;;;;;;;;;AAAyB"}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":["file:///home/asitsingh/Documents/github/Leads/Websites/daya%20makeup%20studio/node_modules/.pnpm/next@16.3.5_@types+node@20.19.43_react-dom@19.2.8_react@19.2.8__react@19.2.8/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4NACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}
